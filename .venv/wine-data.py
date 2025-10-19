@@ -8,7 +8,7 @@ from pandas.plotting import scatter_matrix
 #verileri görselleştirmek için matplotlib kütüphanesi kullanılır.
 from sklearn import datasets
 # veri seti sklearn kütüphanesinde olduğu için ilk önce sklearn paketini kurmak gerekiyor.
-    wine = datasets.load_wine() #veri setini dataset komutu ile yükler.
+wine = datasets.load_wine() #veri setini dataset komutu ile yükler.
 #print(wine.DESCR) #veri seti açıklamasını yapar.
 #print(type(wine)) #sklearn.utils._bunch.Bunch yani türünü ifade eder.
 print(wine.keys()) # veri türü içinde nelerin olduğu.
